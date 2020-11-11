@@ -4,62 +4,77 @@
      <head>
           <meta charset="utf-8">
           <title>Voici le site de Monsieur Philo administré par webadmin2 ! </title>
-          <link rel="stylesheet" href="css/style.css">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-          <header>
-          	<nav>
-          		<ul>
-          			<li "id=logo"> <a href="#"> Accueil</a> </li>
-                         <li> <a href="#produits"> Conférences</a> </li>
-          			<li> <a href="#produits"> Produits</a> </li>
-          			<li> <a href="#contact#"> Contact </a></li>
-          		</ul>
-          	</nav>
-          </header>
-     </head>
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.css">
+     </head>        
      <body>
-          <section "id=presentation" >   
-               <h1>Monsieur Philo</h1>   
-                     <p> Philosopher n'est pas l'apanage des gens qui ont étudié la philosophie. Cela peut aider tout de même de lire des grands philosophes, ou de grands écrivains. Toutefois, modestement, nous pouvons nous interroger sur de nombreux sujets dans le monde complexe dans lequel nous vivons, survivons, et biens des fois nous débatons (au sens de se débatre).
+          <header>
+               <nav>
+                    <ul>
+                         <li id="logo"> <a href="#"> Accueil</a> </li>
+                         <li> <a href="#contact"> Contact </a></li>
+                         <li> <a href="#conferences"> Conférences</a> </li>
+                    </ul>
+               </nav>
+          </header>
+          <div id="imagePrincipale">
+                    <h1>Monsieur Philo</h1>
+                    <div id="premierTrait"></div>
+                    <h3>Des rencontres pour réfléchir ensemble et comprendre le monde dans lequel nous vivons</h3>  
+          </div>               
+          <section id="presentation" >  
+               <h2>Philosophons ensemble de manière interactive</h2>  
+                     <p> Philosopher n'est pas réservé aux gens qui ont étudié les grands auteurs depuis l'antiquité à nos jours. Lire les grands philosophes, de grands écrivains est évidemment un plus, c'est acquérir rapidement l'intelligence ou à tout le moins les réflexions et la connaissance de grands penseurs. 
                     </p>
-                    <p> En lisant divers journaux, en écoutant la radio, en regardant la télévison ou en naviguant sur le Web, nous avons à disposition une énorme quantité d'informations. Certains affirme que cette énorme quantité conforte une "pensée unique". Mais devant ce flux, nous ne sommes ni forcés d'adhérer (position du mouton) ou de nous révolter et tout rejeter (position complotiste).
+                    <p> En lisant divers journaux, en écoutant la radio, en regardant la télévison ou en naviguant sur le Web, nous avons à disposition de grandes quantités d'informations. Certains affirment que cette énorme flux conforte une "pensée unique". Mais devant ce flux, nous ne sommes ni forcés d'adhérer à ce qui est le plus couramment affirmé (position du mouton) ou de nous révolter et tout rejeter (position complotiste) et n'accepter que la parole de celui qui crie le plus fort.
                     </p>
-                    <p> Nous pouvons prendre le temps de réfléchir; lors de temps calme, bricolage, jardinage, farniente, voire sports nécessitant une concentration relachée, nous pouvons prendre un sujet qui nous taraude et simplement le dérouler, tirant et démèlant comme un écheveau, arrrivant sur des ramifications conduisant à des disgressions.
+                    <p> Toutefois, modestement, nous pouvons nous interroger sur de nombreux sujets dans le monde complexe dans lequel nous vivons, survivons, et biens des fois nous débatons (au sens de se débatre). Nous pouvons prendre le temps de réfléchir; lors de nos temps calme, bricolage, jardinage, farniente, voire sports nécessitant une concentration relachée, nous pouvons prendre en tête un sujet qui nous taraude et simplement le dérouler, tirant et démèlant comme un écheveau, arrivant sur des ramifications conduisant à des disgressions.
                     </p>
-                    <p>Arriver à une conclusion n'est pas nécessaire, seul le chemein est essentiel
+                    <p>Parvenir à une conclusion n'est pas nécessaire, seul le chemin est essentiel.
                     </p>
                     <p>Je vous propose donc de vous retrouver dans vos salles polyvalentes, théatres, cinémas pour des conférences interactives</p>
           </section>           
-     <section id="Conferences">
+     <section id="conferences">
           <h2> Mes conférences </h2>
-               <div id="democratie"> La démocratie peut elle échaper à la démagogie ?
-                    <a href="Aristote"> <img src="images/Aristote.jpg" alt="image de platon"></a>
-                    <img src="images/trump.jpeg" alt="photo de Donald Trump">
+               <div id="democratie">
+                  <h4> La démocratie peut elle échaper à la démagogie ? </h4>
+                    <div class="imagesPhilosophes">
+                         <a href="demodema"> <img src="images/Aristote.jpg" alt="image de platon"></a>
+                         <a href="demodema"> <img src="images/trump.jpeg" alt="photo de Donald Trump"></a>
+                    </div>
                </div>
-                <div id="individu"> Liberté Individuelle contre droits des communautés, les guerres de demain ?
-                    <a href="Voltaire"> <img src="images/Voltaire.jpeg" alt="image de Voltaire"></a>
-                    <a href="Ellul"> <img src="images/Jacques_Ellul.jpg" alt="image de Jacques Ellul"></a>
+                <div id="individu">
+                    <h4> Liberté individuelle contre droits des communautés, les guerres de demain ?</h4>
+                     <div class="imagesPhilosophes">
+                              <a href="libecommu"> <img src="images/Voltaire2.jpg" alt="image de Voltaire"></a>
+                              <a href="libecommu"> <img src="images/Jacques_Ellul.jpg" alt="image de Jacques Ellul"></a>
+                    </div>
+               </div>
+                <div id="superindividu"> 
+                    <h4> Vers des individus surpuissants, vers des individus surhumains ?</h4>
+                    <div class="imagesPhilosophes">
+                         <a href="surpuissants"> <img src="images/musk.jpg" alt="image de platon"></a>
+                         <a href="surpuissants"> <img src="images/otherDroids.jpg" alt="photo de Donald Trump"></a>
                </div>        
           </section>
      </body>
      <footer>
-     <h2>Contactez moi</h2>
+     <h3 id="contact">Contactez moi</h2>
      <form>
           <input type="" name="Nom" placeholder="Nom"> <div></div>
           <input type="" name="E-mail" placeholder="E-mail"><div></div>
           <textarea placeholder="Votre message ici"></textarea> <div></div>
           <button> Envoyer</button>
-          <div id="deuxiemetrait"> </div>
-          <div id="copyrightEtIcons"> </div>
-          <div id="copyright"> 
-               <span> Copyright JPF </span>
+          <div id="deuxiemeTrait"> </div>
+          <div id="copyrightEtIcons"> 
+               <div id="copyright"> 
+                    <span> Copyright JPF </span>
+               </div>
+               <div id="icons">
+                    <a href="http://www.twitter.com"><i class="fal fa-twitter"></i></a>
+                    <a href="http://www.facebook.com"><i class="fal fa-facebook"></i></a>
+               </div>
           </div>
-          <div id="icons">
-               <a href="http://www.twitter.com"><i class=fa-twitter></i></a>
-               <a href="http://www.facebook.com"><i class=fa-twitter></i></a>
-          </div>
-          <div></div>
-          <div></div>
      </form>
      </footer>
     </html>
