@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Condensed:ital,wght@1,300&display=swap');
-
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Playfair Display', sans-serif;
 	padding: 0;
@@ -12,12 +13,6 @@ ul {
 }
 li {
 	list-style-type: none;
-}
-h2 {
-	text-transform: uppercase;
-	text-align:center;
-	padding-top: 30px;
-	font-size: 2em;
 }
 a {
 	text-decoration: none;
@@ -44,4 +39,134 @@ header nav li a {
 	font-weight: bold;
 	float: left;	
 }
-/* ***************** Image principale   ************************************ */
+/* ***************** Image principale   ********************************* */
+#imagePrincipale {
+	padding-top: 60px;
+	background : url(BiblioNewcastle.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 500px;
+}
+h1 {
+	list-style-type: none;
+	font-family: 'Roboto Condensed';
+	text-align:center;
+	font-size: 3.5em;
+}
+h2 {
+	font-family: 'Roboto Condensed';
+	text-align:center;
+	font-size: 2em;
+}
+h3 {
+	list-style-type: none;
+	font-family: 'Roboto Condensed';
+	text-align:center;
+	font-size: 1.8em;
+}
+#premierTrait {
+	height: 1px;
+	width : 20%;
+	margin: auto;
+	background-color: #FFFAE1;
+
+}
+/* ***************** Presentation   ************************************ */
+#presentation {
+	background-color:#FFF1AA;
+	padding: 10px 0px 50px 0px;
+}
+#conferences {
+	background-color:#FFB2AA;
+	padding-top: 50px;
+}
+p {
+	padding: 0px 10%;
+	justify-content: space-between;
+}
+#democratie {
+	background-color:#FFE1BA;
+	padding: 10px 0px 50px 0px;
+}
+#individu {
+	background-color:#FFF1AA;
+	padding: 10px 0px 50px 0px;
+}
+#superindividu {
+	background-color:#FFF55A;
+	padding: 10px 0px 50px 0px;
+}
+.imagesPhilosophes img {
+	height: 180px;
+	width: auto;
+	padding-left:10%;
+	padding-right:10%;
+	text-align: center;
+}
+.imagesPhilosophes img:hover {
+	opacity: 0.5;
+	transform:scale(1.10);
+	transition:0.6s ease-in-out;
+	background-clip: 
+}
+h4 {
+	text-align: left;
+	padding-left:10%;
+}
+/* ***************** Footer   ************************************ */
+footer {
+	background-color: #524A3A;
+	color: #FFFAE1;
+	padding: 10px 0 10px 0;
+	text-align:center;
+	width: 100%;
+}
+form {
+	margin:0 auto;
+	max-width: 900px;
+}
+input, textarea, button {
+	border:none;
+	border-radius: 3px;
+	width:55%;
+	padding: 15px;
+	margin:2px 2px;
+	font-size:1.2em;
+}
+textarea {
+	height:120px;
+}
+button {
+	font-size:1.5em;
+	background-color: #FFFAE1;
+}
+button:hover {
+	font-size:1.5em;
+	background-color: #E55039;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+	height: 2px;
+	width : 95%;
+	margin-top : 60px;
+	margin-bottom : 60px;
+	background-color: #FFFAE1;
+}
+#copyrightEtIcons {
+	display: flex;
+	padding: 0 5%;
+	margin-bottom : 20px;
+}
+#copyright {
+	width:50%;
+	text-align:left;
+}
+#icons {
+	width:50%;
+	text-align: right;
+}
+#icons a {
+	display: inline-block;
+	margin: 0 10px;
+	font-size:1.9em;
+}
